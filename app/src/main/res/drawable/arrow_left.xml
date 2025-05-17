@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Línea de la flecha -->
+    <path
+        android:fillColor="@color/blue"
+        android:strokeWidth="5"
+        android:strokeColor="@color/blue"
+        android:pathData="M20,12 L6,12"/>
+
+    <!-- Punta de la flecha -->
+    <path
+        android:fillColor="@color/blue"
+        android:strokeWidth="2"
+        android:strokeColor="@color/blue"
+        android:pathData="M10,6 L6,12 L10,18"/>
+</vector>

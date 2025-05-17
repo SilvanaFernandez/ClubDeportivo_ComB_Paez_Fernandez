@@ -1,4 +1,4 @@
-package com.example.clubdeportivo
+package com.example.clubDeportivo
 
 import org.junit.Test
 

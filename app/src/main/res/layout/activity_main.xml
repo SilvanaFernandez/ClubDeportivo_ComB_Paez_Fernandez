@@ -62,9 +62,10 @@
             android:layout_height="74dp"
             android:layout_marginStart="150dp"
             android:layout_marginTop="255dp"
+            android:background="@drawable/button_border"
             android:text="Ingresar"
-            android:textSize="20dp"
-            android:background="@drawable/button_border"/>
+            android:textColorLink="@color/blue"
+            android:textSize="20dp" />
     </FrameLayout>
 
     <TextView
