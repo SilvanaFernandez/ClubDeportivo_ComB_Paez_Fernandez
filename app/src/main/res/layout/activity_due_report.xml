@@ -8,21 +8,21 @@
     <FrameLayout
         android:layout_width="79dp"
         android:layout_height="47dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp">
 
-        <ImageButton
-            android:id="@+id/btnVolver"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/arrow_left"
-            android:padding="15dp"
-            android:src="@drawable/arrow_left"
-            android:contentDescription="Botón para volver"
-            android:minWidth="48dp"
-            android:minHeight="48dp"/>
-    </FrameLayout>
+    <ImageButton
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/arrow_left"
+        android:padding="15dp"
+        android:src="@drawable/arrow_left"
+        android:contentDescription="Botón para volver"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+</FrameLayout>
 
     <TextView
         android:id="@+id/textTitle"
@@ -99,7 +99,7 @@
                     android:id="@+id/iconEstado"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/greenCheck"/>
+                    android:src="@drawable/alert_check"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
