@@ -11,14 +11,15 @@
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="80dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/button_border"
         android:padding="0dp"
         android:text="Salir"
         android:textSize="15dp"
+        android:contentDescription="Botón para salir de la sesión"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintMarginRid="150dp"
         app:layout_constraintMarginTop="200dp"

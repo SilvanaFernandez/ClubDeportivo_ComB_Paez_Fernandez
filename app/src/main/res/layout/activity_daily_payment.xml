@@ -14,12 +14,15 @@
         android:layout_height="47dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/arrow_left"
-        android:padding="0dp"
+        android:padding="10dp"
         android:src="@drawable/arrow_left"
+        android:contentDescription="Botón para volver"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/textTitle"
