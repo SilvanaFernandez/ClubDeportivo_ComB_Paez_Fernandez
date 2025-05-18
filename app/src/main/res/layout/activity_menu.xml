@@ -8,7 +8,6 @@
     tools:context=".MenuActivity"
     android:background="@color/white">
 
-
     <Button
         android:id="@+id/btnExit"
         android:layout_width="100dp"

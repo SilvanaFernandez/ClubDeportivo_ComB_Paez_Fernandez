@@ -8,21 +8,24 @@
     tools:context=".StateActivity"
     android:background="@color/white">
 
-    <ImageButton
-        android:id="@+id/btnVolver"
+    <FrameLayout
         android:layout_width="79dp"
         android:layout_height="47dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/arrow_left"
-        android:padding="10dp"
-        android:src="@drawable/arrow_left"
-        android:contentDescription="Botón para volver"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp">
+
+        <ImageButton
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/arrow_left"
+            android:padding="15dp"
+            android:src="@drawable/arrow_left"
+            android:contentDescription="Botón para volver"
+            android:minWidth="48dp"
+            android:minHeight="48dp"/>
+    </FrameLayout>
 
     <TextView
         android:id="@+id/textTitle"

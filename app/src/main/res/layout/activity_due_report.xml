@@ -22,7 +22,7 @@
         android:contentDescription="Botón para volver"
         android:minWidth="48dp"
         android:minHeight="48dp"/>
-</FrameLayout>
+    </FrameLayout>
 
     <TextView
         android:id="@+id/textTitle"
