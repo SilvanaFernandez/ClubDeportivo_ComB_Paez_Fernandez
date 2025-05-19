@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clubdeportivo"
+    namespace = "com.example.clubDeportivo"
     compileSdk = 35
 
     defaultConfig {

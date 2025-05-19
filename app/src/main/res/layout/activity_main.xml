@@ -14,7 +14,7 @@
         android:layout_width="412dp"
         android:layout_height="419dp"
         android:layout_marginTop="357dp"
-        android:background="@drawable/edit_text_border"
+        android:background="@drawable/white_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
@@ -37,18 +37,18 @@
         <EditText
             android:id="@+id/txtUser"
             android:layout_width="310dp"
-            android:layout_height="50"
+            android:layout_height="50dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="85dp"
             android:hint="Usuario"
             android:inputType="text"
             android:padding="10dp"
-            android:textSize="20"/>
+            android:textSize="20dp"/>
 
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="310dp"
-            android:layout_height="50"
+            android:layout_height="50dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="155dp"
             android:padding="10dp"
@@ -62,12 +62,14 @@
             android:layout_height="74dp"
             android:layout_marginStart="150dp"
             android:layout_marginTop="255dp"
+            android:background="@drawable/button_border"
             android:text="Ingresar"
+            android:textColorLink="@color/blue"
             android:textSize="20dp" />
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textTitle"
         android:layout_width="268dp"
         android:layout_height="67dp"
         android:layout_marginStart="94dp"
@@ -88,6 +90,7 @@
         android:layout_height="205dp"
         app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="109dp"/>
+        tools:layout_editor_absoluteY="109dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
